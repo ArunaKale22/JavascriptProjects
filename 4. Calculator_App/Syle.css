@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&family=Oswald:wght@200..700&display=swap");
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:200;
+  font-style: normal;
+}
+
+.button {
+  padding: 20px;
+  margin: 0 3px;
+  width: 66px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.row {
+  margin: 8px 0;
+}
+
+.row input {
+  margin: 0;
+  padding: 10px 0px;
+  border: 2px solid black;
+  border-radius: 11px;
+  font-size: 19px;
+  width: 288px;
+}
