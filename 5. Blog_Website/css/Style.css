@@ -3,8 +3,11 @@
     padding: 0;
 }
 .navigation{
-    height:34px;
+    height:74px;
     background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .content{
