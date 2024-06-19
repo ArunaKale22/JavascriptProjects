@@ -25,6 +25,12 @@
 .m-auto {
   margin: auto;
 }
+
+.my-2{
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
 .btn {
   padding: 2px 13px;
   border: 2px solid black;
