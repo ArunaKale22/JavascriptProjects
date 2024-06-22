@@ -60,6 +60,7 @@
   width: 81%;
   height: inherit;
   opacity: 0.15;
+  border-radius: 12px;
 }
 
 .content-left {
