@@ -18,7 +18,7 @@
 }
 
 .nav-left span {
-  font-size: 26px;
+  font-size: 25px;
 }
 
 .nav-left ul {
@@ -48,8 +48,8 @@
 
 .content {
   height: 230px;
-  /* background-color: rgb(147, 147, 231); */
   display: flex;
+  margin-top: 32px;
   padding: 9px;
 }
 
