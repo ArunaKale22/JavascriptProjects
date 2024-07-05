@@ -55,7 +55,7 @@
 
 .content::after {
   content: "";
-  background-image: url("../img/Web_15-04.jpg");
+  background-image: url("../img/bg-img.jpg");
   position: absolute;
   width: 81%;
   height: inherit;
@@ -89,7 +89,7 @@
 }
 
 .home-articles {
-  background-color: rgb(248,239,239, 0.5);
+  background-color: rgb(248, 239, 239, 0.5);
   padding-top: 12px;
   margin-top: 23px;
 }
@@ -108,7 +108,7 @@
   padding: 25px;
 }
 
-.home-article-content a{
+.home-article-content a {
   text-decoration: none;
   color: blue;
 }
@@ -124,6 +124,7 @@
   justify-content: center;
   color: white;
   flex-direction: column;
+ 
 }
 
 .footer a {
