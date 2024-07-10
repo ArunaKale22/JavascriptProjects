@@ -1,5 +1,7 @@
 .post-image {
-    height: 100%;
+    height: 400px;
+    overflow: hidden;
+    margin-top: 14px;
 }
 
 .post-image img{
