@@ -93,6 +93,20 @@
   background-color: rgb(248, 239, 239, 0.5);
   padding-top: 12px;
   margin-top: 23px;
+  position: relative;
+}
+
+.year-box {
+  position: absolute;
+  width: 117px;
+  height: 122px;
+  right: 216px;
+  top: 121px;
+  font-size: 14px;
+}
+
+.year-box div{
+  margin: 12px 0px;
 }
 
 .home-article {
@@ -125,7 +139,6 @@
   justify-content: center;
   color: white;
   flex-direction: column;
- 
 }
 
 .footer a {
