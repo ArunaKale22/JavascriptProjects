@@ -6,6 +6,11 @@
   --font2: "font-family: Cormorant Garamond", serif;
 }
 
+.center{
+  text-align: center;
+  
+}
+
 .font1 {
   font-family: var(--font1);
 }
