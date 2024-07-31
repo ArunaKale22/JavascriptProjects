@@ -4,7 +4,7 @@
 }
 .navigation {
   font-family: var(--font1);
-  height: 74px;
+  /* height: 74px; */
   /* background-color: #c3b9b7; */
   display: flex;
   justify-content: space-between;
@@ -48,7 +48,7 @@
 }
 
 .content {
-  height: 230px;
+  height: 100%;
   display: flex;
   margin-top: 32px;
   padding: 9px;
@@ -59,7 +59,7 @@
   background-image: url("../img/bg-img.jpg");
   position: absolute;
   width: 81%;
-  height: inherit;
+  height: 357px;
   opacity: 0.15;
   border-radius: 12px;
 }
