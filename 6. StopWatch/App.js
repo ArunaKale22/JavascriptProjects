@@ -41,10 +41,27 @@ function updateDisplay() {
       hour++;
       minute = 0;
     }
+
+    let getSec = sec;
+    let getMin = minute;
+    let getHour = hour;
+
+    if(sec < 10){
+      getSec = "0" + sec;
+    }
+
+    if(minute < 10){
+      getMin = "0" + minute;
+    }
+
+    if(hour < 10){
+      getHour = "0" + hour;
+    }
+
     setTimeout(updateDisplay, 10);
     document.getElementById("millisecond").innerHTML = milliSec;
-    document.getElementById("second").innerHTML = sec;
-    document.getElementById("minute").innerHTML = minute;
-    document.getElementById("hr").innerHTML = hour;
+    document.getElementById("second").innerHTML = getSec;
+    document.getElementById("minute").innerHTML = getMin;
+    document.getElementById("hr").innerHTML = getHour;
   }
 }
