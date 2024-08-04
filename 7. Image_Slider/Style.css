@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(156 153 153);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.arrow-img{
+    height: 150px;
+    cursor: pointer;
+}
+
+.left-img{
+    transform: rotate(180deg);
+}
+
+.frame{
+    width: 520px;
+    height: 257px;
+    overflow: hidden;
+    box-shadow: -1px 1px 10px rgba(0, 0, 0, .5);
+}
+
+.slider{
+    display: flex;
+}
+
+.Image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
