@@ -17,9 +17,13 @@ body{
     cursor: pointer;
 }
 
-.left-img{
+.left-arrow-img{
     transform: rotate(180deg);
 }
+
+/* .right-img{
+    transform: rotate(180deg);
+} */
 
 .frame{
     width: 520px;
@@ -28,8 +32,9 @@ body{
     box-shadow: -1px 1px 10px rgba(0, 0, 0, .5);
 }
 
-.slider{
+.img-slider{
     display: flex;
+    transition: all 1s ease;
 }
 
 .Image{
