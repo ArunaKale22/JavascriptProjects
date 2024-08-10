@@ -7,7 +7,7 @@ const images = document.querySelectorAll(".Image");
 //let slideNumber = 1;
 // right.addEventListener("click", () => {
 //   if (slideNumber < images.length) {
-//     slider.style.transform = `translateX(-${slideNumber * 520}px)`;
+//     slider.style.transform = `translateX(-${slideNumber * 100}%)`;
 //     slideNumber++;
 //   } else {
 //     slider.style.transform = `translateX(0px)`;
@@ -18,11 +18,16 @@ const images = document.querySelectorAll(".Image");
 //Another Way
 
 let slideNumber = 1;
-const length = images.length;
+const imageLength = images.length;
 
 const nextSlide = () => {
-  slider.style.transform = `translateX(-${slideNumber * 520}px)`;
+  slider.style.transform = `translateX(-${slideNumber * 100}%)`;
   slideNumber++;
+};
+
+const prevSlide = () => {
+  slider.style.transform = `translateX(-${(slideNumber-2) * 100}%)`;
+  slideNumber--;
 };
 
 const getFirstSlide = () => {
@@ -30,6 +35,15 @@ const getFirstSlide = () => {
   slideNumber = 1;
 };
 
+const getLastSlide = () => {
+  slider.style.transform = `translateX(-${(imageLength-1)*100}%)`;
+  slideNumber = imageLength;
+};
+
 right.addEventListener("click", () => {
-  slideNumber < length ? nextSlide() : getFirstSlide();
+  slideNumber < imageLength ? nextSlide() : getFirstSlide();
+});
+
+left.addEventListener("click", () => {
+  slideNumber > 1 ? prevSlide() : getLastSlide();
 });

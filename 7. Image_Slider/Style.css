@@ -21,10 +21,6 @@ body{
     transform: rotate(180deg);
 }
 
-/* .right-img{
-    transform: rotate(180deg);
-} */
-
 .frame{
     width: 520px;
     height: 257px;
@@ -35,10 +31,12 @@ body{
 .img-slider{
     display: flex;
     transition: all 1s ease;
+    
 }
 
 .Image{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    background-size: cover;
 }
